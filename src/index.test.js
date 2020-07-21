@@ -79,7 +79,7 @@ describe('Needs Improvement Grade', () => {
 });
 
 describe('Did not Meet Expectations Grade', () => {
-    it('When the grade is below 74.99, then the grading would display D - Did not Meet Expectations', () => {
+    it('When the grade is 74.99 and below, then the grading would display D - Did not Meet Expectations', () => {
         // Arrange
         const grade = 70;
         // Act
